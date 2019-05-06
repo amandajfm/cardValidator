@@ -4,7 +4,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const cardValidator = require('../lib/index');
 
-describe('cpf lib', () => {
+describe('card lib', () => {
 
   it('Should return true to correct credit card number 4539 4648 1428 2158', () => {
 
@@ -27,6 +27,12 @@ describe('cpf lib', () => {
   it('Should return false to invalid card number 0000 4648 1428 2158', () => {
 
     expect(cardValidator.cardValidator('0000 4648 1428 2158')).to.equal(false);
+    
+  });
+
+  it('Should return false to invalid repeated numbers, such as 0000 0000 0000 0000 ', () => {
+
+    expect(cardValidator.cardValidator('0000 0000 0000 0000')).to.equal(false);  
     
   });
 
