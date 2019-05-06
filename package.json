@@ -1,6 +1,6 @@
 {
   "name": "cardvalidator-am",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Js library to validate credit cards numbers",
   "main": "./lib/index.js",
   "scripts": {
