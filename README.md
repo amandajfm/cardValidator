@@ -16,12 +16,12 @@ $  npm install cardvalidator-am
 ```node
 
 > const validator = require("cardvalidator-am");
-> validator.cardValidator("4539.4648.1428.2158"))
+> validator.cardValidator("4539.4648.1428.2158")
 > // returns "true"
 
 ```
 
-## roadmap oficial do projeto
+## Roadmap oficial do projeto
 
 #### versão 1.0.0 (released)
-- funcionalidades: Validação de sequência numérica de cartão de crédito, incluindo ou não espaços e caracteres especiais como ponto e traço.
+- Funcionalidades: Validação de sequência numérica de cartão de crédito, incluindo ou não espaços e caracteres especiais como ponto e traço.
