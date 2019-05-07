@@ -1,4 +1,4 @@
-# Validador de cartão de crédito v.1.0.0
+# Validador de cartão de crédito v.1.0.4
 
 **Esta biblioteca se destina à validação de números de cartões de crédito.**
 A versão atual é capaz de validar números de cartão de crédito de 16 dígitos, sendo possível inserir números sem espaço, com espaço ou com caracteres especiais, como ponto e traço.
@@ -23,7 +23,7 @@ $  npm install cardvalidator-am
 
 ## Roadmap oficial do projeto
 
-#### versões 1.0.1 a 1.0.3
+#### versões 1.0.1 a 1.0.4
 - Correções ortográficas e pequenas mudanças de nomes.
 
 #### versão 1.0.0 (released)
